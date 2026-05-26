@@ -1,5 +1,3 @@
-import { act } from "react";
-
 const reducer = (posts=[], action) => {
     switch(action.type) {
         case "FETCH_ALL":
